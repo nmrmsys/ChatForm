@@ -1,0 +1,27 @@
+{
+    // 拡張機能の定義
+    "manifest_version": 2,
+    "name": "ChatForm",
+    "version": "0.2",
+    "description": "チャットフォーム",
+
+    // アイコンの設定
+    "icons": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+    },
+
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+
+    "browser_action": {
+        "default_icon": "icons/icon.png"
+    },
+
+    "options_page": "Options.html",
+
+    "permissions": [ "\u003Call_urls>" ]
+
+}
